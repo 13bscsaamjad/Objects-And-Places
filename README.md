@@ -58,28 +58,28 @@ The semantics of the commands is as follows:
         Clear every place.
  
  
-A sample session:
+A sample session:  
  
-   dump
-   place yellow eraser in pocket
-   dump
-   pocket: yellow eraser
-   place black pen on shelf
-   move pocket to floor
-   show pocket
-   empty
-   show floor
-   yellow eraser
-   dump
-   floor: yellow eraser
-   shelf: black pen
-   place red ball in bag
-   clear drawer
-   ERROR: drawer already empty
-   clear floor
-   reset
-   dump
-   ^D
+   dump </br>
+   place yellow eraser in pocket </br> 
+   dump </br>
+   pocket: yellow eraser </br> 
+   place black pen on shelf </br>
+   move pocket to floor </br>
+   show pocket </br>
+   empty </br>
+   show floor </br>
+   yellow eraser </br>
+   dump </br>
+   floor: yellow eraser </br>
+   shelf: black pen </br>
+   place red ball in bag </br>
+   clear drawer </br>
+   ERROR: drawer already empty </br>
+   clear floor </br>
+   reset </br>
+   dump </br>
+   ^D </br>
 
 ## Solution
 The program is created using flex and bison utilities.
