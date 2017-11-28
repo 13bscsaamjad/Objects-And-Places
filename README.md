@@ -60,26 +60,26 @@ The semantics of the commands is as follows:
  
 A sample session:
  
-   > dump
-   > place yellow eraser in pocket
-   > dump
+   dump
+   place yellow eraser in pocket
+   dump
    pocket: yellow eraser
-   > place black pen on shelf
-   > move pocket to floor
-   > show pocket
+   place black pen on shelf
+   move pocket to floor
+   show pocket
    empty
-   > show floor
+   show floor
    yellow eraser
-   > dump
+   dump
    floor: yellow eraser
    shelf: black pen
-   > place red ball in bag
-   > clear drawer
+   place red ball in bag
+   clear drawer
    ERROR: drawer already empty
-   > clear floor
-   > reset
-   > dump
-   > ^D
+   clear floor
+   reset
+   dump
+   ^D
 
 ## Solution
 The program is created using flex and bison utilities.
